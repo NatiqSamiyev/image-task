@@ -15,9 +15,7 @@
 #page-1 h1 {
   color: var(--text-light-accent, #ef6d58);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -31,9 +29,7 @@
   margin-top: 20px;
   color: var(--text-light, #fff);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
@@ -61,9 +57,7 @@ nav {
 
 #page-1 ul li a {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -75,9 +69,7 @@ nav {
 #page-1 ul li p {
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 14px;
   font-style: normal;
@@ -95,30 +87,28 @@ nav {
 }
 
 .image-box .left img {
-  width: 100%;
-  height: 416px;
-}
-.image-box .right {
-  width: 54%;
-  height: 416px;
-  margin-left: 30px;
-  position: relative;
-  background-color: red;
-}
-.image-box .right img {
-  width: 100%;
+  width: 470px;
   height: 416px;
 }
 
+.image-box .right img {
+  width: 670px;
+  height: 416px;
+}
+
+.image-box .right {
+  width: 100%;
+  height: 416px;
+  margin-left: 30px;
+  position: relative;
+}
 .image-box img {
   width: 100%;
   height: 100%;
 }
 .image-box button {
   color: var(--text-dark, #391400);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -140,34 +130,9 @@ nav {
   align-items: center;
 }
 
-#page-1 .image-box .box-1 .right button {
-  width: 102px;
-  height: 38px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#page-1 .image-box .box-2 .left button {
-  width: 116px;
-  height: 38px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#page-1 .image-box .box-2 .right button {
-  width: 86px;
-  height: 38px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#page-1 .image-box p {
+#page-1 .box-1 .left p {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
@@ -178,7 +143,20 @@ nav {
   bottom: 51px;
 }
 
-.box-2 {
+#page-1 .box-1 .right p {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.box-2{
   margin-top: 32px;
   width: 100%;
   height: 100%;
@@ -188,17 +166,92 @@ nav {
   position: relative;
 }
 
-.box-2 .left {
-  width: 54%;
+.box-2 .left{
+  
+}
+
+.box-2 .left-container {
+  width: 90%;
+  height: 100%;
+}
+
+.box-2 .left-container img {
+  width: 670px;
   height: 416px;
 }
-.box-2 .right {
-  width: 45%;
-  height: 416px;
+
+.box-2 .left-container button {
+  width: 116px;
+  height: 38px;
+  border-radius: 19px;
+  background: #fff;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  left: 48px;
+  bottom: 122px;
 }
-.box-2 img {
+
+.box-2 .right-container {
   width: 100%;
   height: 100%;
+  margin-left: 30px;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+}
+
+.box-2 .left-container p {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.box-2 .right-container button {
+  width: 86px;
+  height: 38px;
+  border-radius: 19px;
+  background: #fff;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  left: 48px;
+  bottom: 122px;
+}
+
+.box-2 .right-container p {
+  color: var(--text-light, #010308);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.box-2 .right-container img {
+  width: 470px;
+  height: 416px;
 }
 
 .bottom-container {

@@ -15,9 +15,7 @@
 #page-1 h1 {
   color: var(--text-light-accent, #ef6d58);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -31,9 +29,7 @@
   margin-top: 20px;
   color: var(--text-light, #fff);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
@@ -61,9 +57,7 @@ nav {
 
 #page-1 ul li a {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -75,9 +69,7 @@ nav {
 #page-1 ul li p {
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 14px;
   font-style: normal;
@@ -110,15 +102,14 @@ nav {
   height: 416px;
 }
 
+
 .image-box img {
   width: 100%;
   height: 100%;
 }
 .image-box button {
   color: var(--text-dark, #391400);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -148,16 +139,8 @@ nav {
   align-items: center;
 }
 
-#page-1 .image-box .box-2 .left button {
-  width: 116px;
-  height: 38px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#page-1 .image-box .box-2 .right button {
-  width: 86px;
+#page-1 .image-box .box-1 .right button {
+  width: 102px;
   height: 38px;
   display: flex;
   justify-content: center;
@@ -165,9 +148,7 @@ nav {
 }
 #page-1 .image-box p {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
@@ -178,7 +159,8 @@ nav {
   bottom: 51px;
 }
 
-.box-2 {
+
+.box-2{
   margin-top: 32px;
   width: 100%;
   height: 100%;
@@ -188,18 +170,20 @@ nav {
   position: relative;
 }
 
-.box-2 .left {
+.box-2 .left{
   width: 54%;
   height: 416px;
 }
-.box-2 .right {
+.box-2 .right{
   width: 45%;
   height: 416px;
 }
-.box-2 img {
+.box-2 img{
   width: 100%;
   height: 100%;
 }
+
+
 
 .bottom-container {
   margin-top: 64px;
