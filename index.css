@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#page-1 {
+  width: 100%;
+  padding: 92px 135px 117px 135px;
+  background-color: #28293e;
+  min-height: 100vh;
+}
+
+#page-1 h1 {
+  color: var(--text-light-accent, #ef6d58);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#page-1 h2 {
+  margin-top: 20px;
+  color: var(--text-light, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+#page-1 ul {
+  display: flex;
+}
+
+#page-1 ul li {
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+nav {
+  margin-top: 36px;
+  margin-bottom: 68px;
+  display: flex;
+  justify-content: center;
+}
+
+#page-1 ul li a {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+#page-1 ul li p {
+  color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.image-box .left {
+  width: 45%;
+  height: 416px;
+  position: relative;
+}
+
+.image-box .left img {
+  width: 470px;
+  height: 416px;
+}
+
+.image-box .right img {
+  width: 670px;
+  height: 416px;
+}
+
+.image-box .right {
+  width: 100%;
+  height: 416px;
+  margin-left: 30px;
+  position: relative;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+}
+.image-box button {
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  border-radius: 19px;
+  background: #fff;
+  border: none;
+  position: absolute;
+  bottom: 122px;
+  left: 48px;
+}
+
+#page-1 .image-box .box-1 .left button {
+  width: 84px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-1 .box-1 .left p {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+#page-1 .box-1 .right p {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.image1-box {
+  margin-top: 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.box-2 .left-container {
+  width: 90%;
+  height: 100%;
+}
+
+.box-2 .left-container img {
+  width: 670px;
+  height: 416px;
+}
+
+.box-2 .left-container button {
+  width: 116px;
+  height: 38px;
+  border-radius: 19px;
+  background: #fff;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  left: 48px;
+  bottom: 122px;
+}
+
+.box-2 .right-container {
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+}
+
+.box-2 .left-container p {
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.box-2 .right-container button {
+  width: 86px;
+  height: 38px;
+  border-radius: 19px;
+  background: #fff;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  left: 48px;
+  bottom: 122px;
+}
+
+.box-2 .right-container p {
+  color: var(--text-light, #010308);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  position: absolute;
+  left: 48px;
+  bottom: 51px;
+}
+
+.box-2 .right-container img {
+  width: 470px;
+  height: 416px;
+}
+
+.bottom-container {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-container button {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #28293e;
+  color: #fff;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
