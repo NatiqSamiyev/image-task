@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,9 +15,7 @@
 #page-1 h1 {
   color: var(--text-light-accent, #ef6d58);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -31,9 +29,7 @@
   margin-top: 20px;
   color: var(--text-light, #fff);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
@@ -61,9 +57,7 @@ nav {
 
 #page-1 ul li a {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -75,9 +69,7 @@ nav {
 #page-1 ul li p {
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 14px;
   font-style: normal;
@@ -116,9 +108,7 @@ nav {
 }
 .image-box button {
   color: var(--text-dark, #391400);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -165,9 +155,7 @@ nav {
 }
 #page-1 .image-box p {
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
@@ -221,4 +209,97 @@ nav {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+}
+
+#page-2 {
+  width: 100%;
+  padding: 141px 134px 128px 135px;
+  background: #fdf0e9;
+}
+
+#page-2 h1 {
+  color: var(--text-dark-accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#page-2 h2 {
+  margin-top: 17px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+#page-2 ul {
+  display: flex;
+  margin-top: 35px;
+}
+
+#page-2 ul li {
+  width: 391px;
+  padding: 48px 48px 52px 48px;
+  list-style-type: none;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #f3d1bf;
+  position: relative;
+}
+
+#page-2 ul li img {
+  /* background-color: darkblue; */
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+#page-2 ul li .image {
+  /* background-color: #58ef6c; */
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+  position: absolute;
+  left: 72px;
+  margin-top: 25px;
+}
+
+#page-2 ul li h3 {
+  margin-top: 41px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+#page-2 ul li p {
+  margin-top: 19px;
+  color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#page-2 ul li h4 {
+  margin-top: 26px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
