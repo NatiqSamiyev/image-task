@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* page -3 */
+
+#page-3 {
+    width: 100%;
+    padding: 16px 135px 66px 135px;
+    min-height: 100vh;
+    background: #28293e;
+  }
+  
+  #page-3 nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #page-3 nav .logo-box {
+    display: flex;
+  }
+  
+  #page-3 nav .image-box {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  
+  #page-3 nav .image-box .image1 {
+    width: 48px;
+    height: 48px;
+  }
+  
+  #page-3 nav .image-box .image2 {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #page-3 nav .logo-box p {
+    margin-left: 14px;
+    margin-top: 9px;
+    color: var(--text-light, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  
+  #page-3 nav ul {
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #page-3 nav ul li {
+    list-style-type: none;
+  }
+  
+  #page-3 nav ul li a {
+    color: var(--text-light, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  
+  #page-3 nav button {
+    width: 138px;
+    height: 48px;
+    color: var(--text-light, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--text-light-gray, rgba(255, 255, 255, 0.64));
+    background: none;
+    border-radius: 5px;
+  }
+  
+  #page-3 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #page-3 main h1 {
+    margin-top: 104px;
+    margin-bottom: 24px;
+    color: var(--text-light, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+  
+  #page-3 main p {
+    width: 570px;
+    color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
