@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.our-blog-container {
+  width: 100%;
+  padding: 112px 135px 60px 135px;
+  background: #fdf0e9;
+  min-height: 100vh;
+}
+
+.our-blog-container .box-1 h1 {
+  color: var(--text-dark-accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.our-blog-container .top-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.our-blog-container .top-container div {
+  width: 318px;
+}
+
+.our-blog-container .top-container div h2 {
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.our-blog-container .top-container button {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  border: #fdf0e9;
+}
+
+.our-blog-container .top-container button a {
+  text-decoration: none;
+}
+
+.our-blog-container .box-container {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 50px 0;
+  border: #cbec27;
+}
+
+.our-blog-container .box-container img {
+  width: 370px;
+  height: 224px;
+  border-radius: 6px;
+  background: #5c2000;
+}
+
+.our-blog-container .box-container h3 {
+  margin-top: 26px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.our-blog-container .box-container div {
+  width: 338px;
+  height: 68px;
+  margin-top: 15px;
+}
+
+.our-blog-container .box-container div h4 {
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.our-blog-container .box-container div p {
+  margin-top: 15px;
+  color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
