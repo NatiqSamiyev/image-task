@@ -51,15 +51,20 @@
   height: 48px;
   border-radius: 6px;
   background: #fff;
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  border: #fdf0e9;
+  border: none;
 }
 
 .our-blog-container .top-container button a {
   text-decoration: none;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 800;
+  border: #fdf0e9;
+  color: #391400;
+  text-align: center;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .our-blog-container .box-container {
