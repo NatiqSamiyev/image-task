@@ -7,7 +7,7 @@
 
 .our-blog-container {
   width: 100%;
-  padding: 112px 135px 60px 135px;
+  padding: 112px 135px 68px 135px;
   background: #fdf0e9;
   min-height: 100vh;
 }
@@ -70,13 +70,9 @@
   display: flex;
   justify-content: space-between;
 }
-.box-container div{
-  width: 32%;
- 
-}
 
 .our-blog-container .box-container img {
-  width: 100%;
+  width: 370px;
   height: 224px;
   border-radius: 6px;
   background: #5c2000;
@@ -113,11 +109,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-}
-
-.our-blog-container hr{
-  margin-top: 68px;
-  background: #F3D1BF;
-  height: 1px;
-  border: none;
 }

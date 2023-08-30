@@ -7,7 +7,7 @@
 
 .our-blog-container {
   width: 100%;
-  padding: 112px 135px 60px 135px;
+  padding: 112px 135px 68px 135px;
   background: #fdf0e9;
   min-height: 100vh;
 }
@@ -116,7 +116,6 @@
 }
 
 .our-blog-container hr{
-  margin-top: 68px;
   background: #F3D1BF;
   height: 1px;
   border: none;
