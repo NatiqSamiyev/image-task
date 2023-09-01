@@ -185,9 +185,11 @@ line-height: 32px; /* 160% */
 table{
   width: 100%;
   border-collapse: collapse;
+
 }
 table tr{
-  border-top: 2px solid #F3D1BF;
+  border-top: 2px solid red;
+  background-color: yellow;
   width: 100%;
   padding: 15px 0;
   /* display: flex;

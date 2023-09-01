@@ -187,7 +187,7 @@ table{
   border-collapse: collapse;
 }
 table tr{
-  border-top: 2px solid #F3D1BF;
+  border-top: 2px solid ;
   width: 100%;
   padding: 15px 0;
   /* display: flex;

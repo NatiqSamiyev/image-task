@@ -7,13 +7,12 @@
 
 .our-blog-container {
   width: 100%;
-  padding: 112px 135px 60px 135px;
+  padding: 112px 135px 68px 135px;
   background: #fdf0e9;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
-.our-blog-container  h1 {
-  
+.our-blog-container .box-1 h1 {
   color: var(--text-dark-accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -32,8 +31,11 @@
   align-items: center;
 }
 
-.our-blog-container .top-container  h2 {
+.our-blog-container .top-container div {
   width: 318px;
+}
+
+.our-blog-container .top-container div h2 {
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -70,13 +72,9 @@
   display: flex;
   justify-content: space-between;
 }
-.box-container div{
-  width: 32%;
- 
-}
 
 .our-blog-container .box-container img {
-  width: 100%;
+  width: 370px;
   height: 224px;
   border-radius: 6px;
   background: #5c2000;
@@ -92,9 +90,14 @@
   font-weight: 400;
   line-height: 32px;
 }
-.our-blog-container .box-container div h4 {
+
+.our-blog-container .box-container div {
   width: 338px;
+  height: 68px;
   margin-top: 15px;
+}
+
+.our-blog-container .box-container div h4 {
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -113,11 +116,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-}
-
-.our-blog-container hr{
-  margin-top: 68px;
-  background: #F3D1BF;
-  height: 1px;
-  border: none;
 }
