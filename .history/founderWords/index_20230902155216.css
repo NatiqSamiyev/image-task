@@ -35,33 +35,34 @@
 
 .founder-words-container .right-container {
   /* width: 40%; */
+  background-color: red;
   position: relative;
+
+
 }
 
-.founder-words-container .right-container .box-1 {
+.founder-words-container .right-container .box-1{
 }
 
-.founder-words-container .right-container .box-1 {
+.founder-words-container .right-container .box-1  {
   width: 100px;
   height: 80px;
   position: absolute;
   right: 48px;
-  top: 53px;
+    top: 53px;
   /* right: 15%; */
-  z-index: 1;
 }
 
 .founder-words-container .right-container .box-2 {
   position: relative;
   padding-top: 44px;
+
 }
 
 .founder-words-container .right-container .box-2 h1 {
   margin-bottom: 33px;
   color: var(--Text_Light_Accent, #ef6d58);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -74,9 +75,7 @@
 .founder-words-container .right-container .box-2 p {
   width: 470px;
   color: var(--Text_Light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
@@ -87,9 +86,7 @@
 .founder-words-container .right-container .box-2 h2 {
   margin-top: 44px;
   color: var(--Text_Light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 20px;
   font-style: normal;
@@ -100,9 +97,7 @@
 .founder-words-container .right-container .box-2 h3 {
   margin-top: 6px;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 14px;
   font-style: normal;

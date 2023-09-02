@@ -18,11 +18,11 @@
   justify-content: space-between;
 }
 
-.videoreel-container .box-container .left-container video {
+.videoreel-container .box-container .left-container  {
   width: 570px;
   height: 368px;
   border-radius: 6px;
-
+  position: relative;
 }
 
 .videoreel-container .box-container .left-container div {

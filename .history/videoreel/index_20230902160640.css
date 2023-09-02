@@ -18,11 +18,13 @@
   justify-content: space-between;
 }
 
-.videoreel-container .box-container .left-container video {
+.videoreel-container .box-container .left-container  {
   width: 570px;
   height: 368px;
   border-radius: 6px;
-
+  opacity: 0.3181;
+  background: #5c2000;
+  position: relative;
 }
 
 .videoreel-container .box-container .left-container div {
@@ -95,11 +97,14 @@
 
 }
 
+.videoreel-container .bottom-container ul li:nth-child(2) {
+  border: 1px solid #f3d1bf;
 
+}
 
 .videoreel-container .bottom-container ul li:last-child {
   border-radius: 0px 6px 6px 0px;
-
+  border: 1px solid #f3d1bf;
 }
 
 .videoreel-container .bottom-container ul li h3 {

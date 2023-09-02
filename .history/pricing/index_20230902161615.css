@@ -163,9 +163,7 @@
   background: #ef6d58;
 
 }
-.pricing-container .box-container .center-container button a{
-  color: white;
-}
+
 
 .pricing-container .box-container h5 {
   color: var(--Text_Light, #fff);

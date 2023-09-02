@@ -18,18 +18,19 @@
   justify-content: space-between;
 }
 
-.videoreel-container .box-container .left-container video {
-  width: 570px;
-  height: 368px;
-  border-radius: 6px;
+.videoreel-container .box-container .left-container .image {
 
+  border-radius: 6px;
+  opacity: 0.3181;
+  background: #5c2000;
+  position: relative;
 }
 
 .videoreel-container .box-container .left-container div {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 25%;
+  transform: translate(-25%, -45%);
 }
 
 .videoreel-container .box-container .left-container img {
@@ -38,6 +39,7 @@
 }
 
 .videoreel-container .box-container .right-container {
+
   width: 470px;
 }
 
@@ -84,22 +86,25 @@
 }
 
 .videoreel-container .bottom-container ul li {
-  width: 33.33%;
+  width: 391px;
+  height: 176px;
   list-style-type: none;
   padding: 45px 48px;
-  border: 1px solid #f3d1bf;
 }
 
 .videoreel-container .bottom-container ul li:first-child {
   border-radius: 6px 0px 0px 6px;
-
+  border: 1px solid #f3d1bf;
 }
 
-
+.videoreel-container .bottom-container ul li:nth-child(2) {
+  border: 1px solid #f3d1bf;
+  background: #fdf0e9;
+}
 
 .videoreel-container .bottom-container ul li:last-child {
   border-radius: 0px 6px 6px 0px;
-
+  border: 1px solid #f3d1bf;
 }
 
 .videoreel-container .bottom-container ul li h3 {
