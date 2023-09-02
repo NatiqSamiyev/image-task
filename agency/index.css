@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.agency-container{
+    width: 100%;
+    padding: 80px 135px 0 134px;
+    background: #FDF0E9;
+}
+
+.agency-container .top-container{
+    display: flex;
+    
+    
+}
+
+.agency-container .top-container .box{
+    width: 391px;
+height: 192px;
+border-radius: 6px 0px 0px 6px;
+border: 1px solid #F3D1BF;
+}
+
+.agency-container .top-container .box div{
+    display: flex;
+}
+
