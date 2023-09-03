@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pricing-container {
+  width: 100%;
+  padding: 108px 134px 156px 135px;
+  background: #fdf0e9;
+}
+
+.pricing-container h1 {
+  color: var(--text-dark-accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.pricing-container h2 {
+  width: 358px;
+  margin-top: 20px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.pricing-container .box-container {
+  margin-top: 16px;
+  display: flex;
+}
+
+.pricing-container .box-container div {
+  width: 33%;
+  border: 1px solid #f3d1bf;
+}
+
+.pricing-container .box-container div h3 {
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.pricing-container .box-container div h4 {
+  margin-top: 17px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.pricing-container .box-container div p {
+  margin-top: 15px;
+  width: 295px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.pricing-container .box-container div ul {
+  margin-top: 27px;
+}
+
+.pricing-container .box-container div ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+.pricing-container .box-container div ul li img {
+  width: 16px;
+  height: 16px;
+}
+
+.pricing-container .box-container div ul li p {
+  margin-left: 16px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.pricing-container .box-container div button {
+  margin-top: 36px;
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+  border: none;
+}
+
+.pricing-container .box-container div button a {
+  color: #391400;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.left-container,
+.rigth-container {
+  margin-top: 64px;
+  padding: 44px 47px 48px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.rigth-container {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.pricing-container .box-container .center-container {
+  padding: 36px 47px 48px 48px;
+  border-radius: 6px 6px 0px 0px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
+  /* position: relative; */
+}
+
+.pricing-container .box-container .center-container .image {
+  width: 92px;
+  height: 38px;
+}
+
+.pricing-container .box-container .center-container h3 {
+  margin-top: 24px;
+}
+
+.pricing-container .box-container .center-container button {
+  border-radius: 6px;
+  background: #ef6d58;
+
+}
+.pricing-container .box-container .center-container 
+
+.pricing-container .box-container h5 {
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 5px;
+}
