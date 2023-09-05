@@ -38,8 +38,9 @@
 .agency-container .top-container ul li .collaj-box {
   display: flex;
   align-items: center;
+
 }
-.agency-container .top-container ul li .image-box {
+.agency-container .top-container ul li .image-box{
   width: 64px;
   height: 64px;
   position: relative;
@@ -54,9 +55,9 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
 }
 
 .agency-container .top-container ul li div h1 {
@@ -198,7 +199,7 @@
 }
 
 .agency-container .bottom-container .box-1 ul li:last-child {
-  margin-left: 231px;
+  /* margin-left: 231px; */
 }
 
 .agency-container .bottom-container .box-1 img {
@@ -217,7 +218,7 @@
   border: none;
 }
 
-.agency-container .bottom-container .box-2 .footer {
+.agency-container .bottom-container .box-2 div {
   margin-top: 43px;
   display: flex;
   justify-content: space-between;
@@ -233,12 +234,8 @@
   line-height: 32px;
 }
 
-.agency-container .bottom-container .box-2 .links {
-  display: flex;
-}
-
-.agency-container .bottom-container .box-2 div a {
-  margin-right: 68px;
+.agency-container .bottom-container .box-2 div h5 {
+  margin-left: 544px;
   color: var(--Text_Dark, #391400);
   text-align: right;
   font-feature-settings: "clig" off, "liga" off;
@@ -247,5 +244,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-decoration: none;
+}
+
+.agency-container .bottom-container .box-2 div h6 {
+  color: var(--Text_Dark, #391400);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
